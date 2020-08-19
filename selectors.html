@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors in css</title>
+    <style>
+        /* id k saath select krna paragraph ko */
+        #firstbg{
+            color: cyan;
+        }
+        /* class k saath select krna paragraph ko */
+        .bluebg{
+            color: darkgreen;
+            background-color: darkkhaki;
+        }
+        /* element k saath select krna paragraph ko */
+        p{
+            color: darkorange;
+            background-color: darkred;
+        }
+        /* grouping krke select krna */
+        footer,span{
+            background-color: darkred;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- id k saath style kiya h -->
+    <p id="firstpara">this is first paragraph</p>
+    <!-- class k saath style kiya h -->
+    <p id="secondpara" class="bluebg">this is second paragraph</p>
+    <p>this is third paragraph</p>
+    <span>this is span</span>
+    <footer>this is footer</footer>
+</body>
+</html>
