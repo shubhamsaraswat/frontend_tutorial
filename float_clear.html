@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Clear</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 3px solid red;
+            /* for taking content in the center use margin autop */
+            margin:auto; 
+            background-color:rgb(255, 0, 0)
+        }
+
+        .item{
+            width: 300px;
+            border: 3px solid rgb(255, 153, 0);
+            margin: 12px 3px;
+            padding:12px 3px;
+            background-color:rgb(208, 255, 0)
+        }
+        #fruits{
+            float:left;
+            width : 48%;
+        }
+        #computer{
+            float: right;
+            width : 48%;
+
+        }
+        #stationery{
+            clear: both;
+            width: 100%;
+
+        }
+        p,h1{
+            text-align:justify;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit sunt rem officia voluptatibus aperiam nam modi unde. Dolor adipisci molestias commodi illum officia, maiores quaerat similique dicta? Iusto, sed.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore inventore quam doloribus molestiae amet laudantium blanditiis non maiores, eligendi tempora magnam alias corporis consequatur suscipit, reprehenderit porro ullam adipisci consequuntur!</p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>Stationery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ab dicta magni in architecto accusamus sit nemo odit praesentium dolore eligendi, qui quae minus magnam obcaecati, velit reprehenderit illo adipisci.</p>
+        </div>
+    </div>
+</body>
+</html>
